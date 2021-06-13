@@ -24,7 +24,7 @@
 
             <div id="left-nav">
                 <ul>
-                    <li><a href="#">Projets</a></li>
+                    <li><a href="/index.php?action=projects">Projets</a></li>
                     <li><a href="#">Gallerie</a></li>
                 </ul>
             </div>

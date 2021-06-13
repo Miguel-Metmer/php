@@ -6,4 +6,9 @@ class frontController
     {
         include_once ROOT . 'templates/frontend/home.php';
     }
+
+    public function projects()
+    {
+        include_once ROOT . 'templates/frontend/projects.php';
+    }
 }

@@ -23,6 +23,10 @@ class index
                 {
                     echo "Hey";
                 }
+                elseif($_GET["action"] == "projects")
+                {
+                    $this->frontController->projects();
+                }
             }
             else
             {
