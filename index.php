@@ -17,9 +17,9 @@ class index
     {
         try
         {
-            if(isset($_POST["action"]))
+            if(isset($_GET["action"]))
             {
-                if($_POST["action"] == "test")
+                if($_GET["action"] == "test")
                 {
                     echo "Hey";
                 }
